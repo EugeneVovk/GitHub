@@ -1,0 +1,22 @@
+Bug template
+
+Bug_id:
+
+Tit1e:
+
+Severity (Blocker, Critical, Major, Minor, Trivial):
+
+Priority (High, Medium, Low):
+
+Environment:
+
+Precondition:
+
+STR:
+
+AR:
+
+ER:
+
+Attachments:
+
