@@ -1,0 +1,67 @@
+GitHub. Homework 2
+
+01. На локальном репозитории сделать ветки для:
+	- Postman - git branch Postman
+	- Jmeter - git branch Jmeter
+	- CheckLists - git branch CheckLists
+	- Bag Reports - git branch BugReports
+	- SQL - git branch SQL
+	- Charles - git branch Charles
+	- Mobile testing - git branch MobileTesting
+02. Запушить все ветки на внешний репозиторий
+	- git branch
+	- git push --all origin
+03. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+	- git branch
+	- git checkout BugReports
+	- git branch
+	- nano Bug_template.txt
+		Bug template
+		Bug_id:
+		Tit1e:
+		Severity (Blocker, Critical, Major, Minor, Trivial):
+		Priority (High, Medium, Low):
+		Environment:
+		Precondition:
+		STR:
+		AR:
+		ER:
+		Attachments:
+	ctrl+o
+	ctrl+x
+04. Запушить структуру багрепорта на внешний репозиторий
+	- git status
+	- git add Bug_template.txt
+	- git commit -m "create Bug_template.txt"
+	- git push --set-upstream origin BugReports
+05. Вмержить ветку Bag Reports в Main
+	- git checkout main
+	- git merge BugReports
+06. Запушить main на внешний репозиторий
+	- git status
+	- git push
+07. В ветке CheckLists набросать структуру чек листа
+	- nano CheckList.txt
+		Checklist template
+		id:
+		Summary:
+		Example:
+		Result:
+		Status:
+			- passed
+			- failed
+			- blocked
+			- skipped
+			- not run
+	ctrl+o
+	ctrl+x
+08. Запушить структуру на внешний репозиторий
+	- git status
+	- git add CheckList.txt
+	- git commit -m "create CheckList.txt on the CheckLists branch"
+	- git push --set-upstream origin CheckLists
+09. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+10. Синхронизировать Внешнюю и Локальную ветки Main
+	- git fetch
+	- git pull
+	
